@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.skeleton-container {
+  background: red;
+  max-width: max-content;
+  min-width: min-content;
+  border-radius: 16px;
+  margin-top: 24px;
+}
+
+.fade-in {
+  animation: fade-in 0.5s ease-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 5px);
+  }
+  30% {
+    transform: translate(0px, -2px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+
+.dummy-content {
+  height: 100px;
+  width: 300px;
+  background: black;
+  border-radius: 16px;
+}
+
+.skeleton_svg {
+  background: url(./skeleton01.svg);
+  border-radius: 16px;
+  background-size: cover;
+  width: 300px;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-position: center;
+}
